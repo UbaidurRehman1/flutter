@@ -18,3 +18,9 @@
     - Coloumn, row etc
 - Container 
     - in between visible and invisible
+
+#### Types of Widget according to state
+- Statefull
+    - Changes state as internal change occur
+- Stateless
+    - do not change state as internal change occur
