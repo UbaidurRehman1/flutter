@@ -1,20 +1,20 @@
 import 'package:flutter/cupertino.dart';
 
 class Question extends StatelessWidget {
-  final String question;
+    final String question;
 
-  Question(this.question);
+    Question(this.question);
 
-  @override
-  Widget build(BuildContext context) {
-    return Container(
-      width: double.infinity,
-      margin: EdgeInsets.all(20),
-      child: Text(
-        question,
-        style: TextStyle(fontSize: 28),
-        textAlign: TextAlign.center,
-      ),
-    );
-  }
+    @override
+    Widget build(BuildContext context) {
+        return Container(
+            width: double.infinity,
+            margin: EdgeInsets.all(20),
+            child: Text(
+                question,
+                style: TextStyle(fontSize: 28),
+                textAlign: TextAlign.center,
+            ),
+        );
+    }
 }
